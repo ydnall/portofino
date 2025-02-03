@@ -25,19 +25,19 @@
 
 	const projectItems: Project[] = [
 		{
-			title: 'AI-Powered Task Manager',
+			title: 'Example Project 1',
 			description:
-				'Smart task management platform using ML for task prioritization. Implemented NLP for analysis and automated scheduling, achieving 90% categorization accuracy.',
-			skills: ['React', 'TypeScript', 'Node.js'],
-			github: 'https://github.com/yourusername/project-alpha',
-			demo: 'https://project-alpha.demo.com'
+				'This is a placeholder project. Will replace with actual project description later.',
+			skills: ['TypeScript', 'React', 'Firebase'],
+			github: '#',
+			demo: '#'
 		},
 		{
-			title: 'Real-time Collaboration Platform',
+			title: 'Example Project 2',
 			description:
-				'Collaborative workspace featuring live document editing and team chat. Optimized for 1000+ concurrent users with <100ms latency.',
-			skills: ['Svelte', 'TailwindCSS', 'Firebase'],
-			github: 'https://github.com/yourusername/project-beta'
+				'This is a placeholder project. Will replace with actual project description later.',
+			skills: ['Svelte', 'TailwindCSS', 'Drizzle ORM', 'Neon'],
+			github: '#'
 		}
 	];
 </script>
