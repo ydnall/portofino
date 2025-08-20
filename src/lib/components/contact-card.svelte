@@ -6,7 +6,10 @@
 <div class="space-y-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
 	<div>
 		<h1 class="text-4xl font-bold tracking-tight text-gray-900">andy li</h1>
-		<h2 class="mt-2 text-xl font-medium tracking-wide text-gray-600">building stuff lol</h2>
+		<h2 class="mt-2 text-xl font-medium tracking-wide text-gray-600">
+			some funny stuff here or whatever. <br /><br />
+			also click github button to use this template.
+		</h2>
 	</div>
 
 	<div class="flex items-end justify-between">

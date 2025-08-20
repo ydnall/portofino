@@ -17,12 +17,12 @@ type SiteConfig = {
 
 export const siteConfig: SiteConfig = {
 	title: 'Portfolio - Andy Li',
-	description: 'Computer Science student at KTH, enjoy web development and machine learning',
+	description: 'Computer Science student at KTH, enjoy web development.',
 	author: 'Andy Li',
 	email: 'andy_li_@outlook.com',
 	location: 'stockholm, sweden',
 	socials: {
-		github: 'https://github.com/ydnall',
+		github: 'https://github.com/ydnall/portofino',
 		linkedin: 'https://linkedin.com/in/ydnall'
 	},
 	metadata: {
@@ -30,7 +30,6 @@ export const siteConfig: SiteConfig = {
 			'computer science student',
 			'kth',
 			'web development',
-			'machine learning',
 			'software engineering',
 			'svelte',
 			'typescript',

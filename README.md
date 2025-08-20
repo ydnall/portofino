@@ -1,38 +1,67 @@
-# sv
+# Portofino - It's a resume template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Just simple template.
 
-## Creating a project
+## ✨ Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- 📄 Minimalistic
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🚀 Quick Start
 
 ```bash
+# Clone this repository
+git clone https://github.com/ydnall/portofino.git
+
+# Navigate to the project directory
+cd portofino
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Open [http://localhost:5173](http://localhost:5173) to view template.
 
-To create a production version of your app:
+## 🛠️ Customization
+
+1. **Personal Information**: Edit contact card component in `src/lib/components/contact-card.svelte`
+2. **Content**: Replace with your resume information in `src/routes/+page.svelte`
+3. **Styling**: Customize colors and styling in Tailwind config or component styles
+4. **Sections**: You can add or remove sections by modifying the main page component
+
+## 📁 Project Structure
+
+```
+src/
+├── lib/
+│   ├── components/     # Reusable components
+│   └── types.ts       # TypeScript type definitions
+├── routes/
+│   └── +page.svelte   # Main resume page
+└── app.html          # HTML template
+```
+
+## 🌐 Deployment
+
+Build the project for production:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can deploy to platforms like:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Vercel
+- Cloudflare
+- Github Pages
+- Some other static hosting service
+
+## 📄 License
+
+It's a free template, use it however you want.
+
+## 🤝 Contributing
+
+Submit issue maybe, I'm not good at coding.

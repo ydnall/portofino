@@ -8,35 +8,33 @@
 	const educationItems: Education[] = [
 		{
 			title: 'KTH Royal Institute of Technology',
-			period: 'BSc & MSc in Computer Science • Aug. 2022 - May 2027',
+			period: 'MSc in Computer Science • Aug. 2022 - Present',
 			description:
-				'Specializing in Machine Learning and AI systems. Key coursework: Advanced Algorithms, Deep Learning, Distributed Systems, and Cloud Computing.'
+				'i like to study sometimes... this education card can be used to showcase your education background, maybe also even some coursework you did.'
 		}
 	];
 
 	const experienceItems: Experience[] = [
 		{
-			title: 'Web Developer @ Tough Energy',
-			period: 'Dec. 2024 - Present',
-			description:
-				'Developed and launched a Shopify e-commerce platform, implementing custom features and optimizations that drove 40% revenue growth in the Nordic market.'
+			title: 'Job Title',
+			period: 'Start Date - End Date',
+			description: 'describe your experience here. maybe you have done something impressive :O'
 		}
 	];
 
 	const projectItems: Project[] = [
 		{
-			title: 'Example Project 1',
-			description:
-				'This is a placeholder project. Will replace with actual project description later.',
-			skills: ['TypeScript', 'React', 'Firebase'],
+			title: 'Example Project',
+			description: 'cool project description here.',
+			skills: ['Skill', 'Another Skill', 'Maybe one more'],
 			github: '#',
 			demo: '#'
 		},
 		{
-			title: 'Example Project 2',
+			title: 'Another Example Project',
 			description:
-				'This is a placeholder project. Will replace with actual project description later.',
-			skills: ['Svelte', 'TailwindCSS', 'Drizzle ORM', 'Neon'],
+				'yet another placeholder description. replace it with your own cool project description.',
+			skills: ['Skill', 'Some Skill', 'Maybe Framework', 'Or Tool you used'],
 			github: '#'
 		}
 	];
@@ -49,10 +47,9 @@
 			<div class="space-y-12">
 				<Section title="about">
 					<p class="text-gray-600">
-						hey! i build cool stuff for the web and play around with machine learning. when i'm not
-						coding, you'll probably find me falling off boulders at the climbing gym. always down to
-						learn new tech and build fun things! looking for new opportunities (hire me lol) to
-						create something awesome together 🚀
+						hey! lets learn stuff together :&#41; <br /><br />
+						introduce yourself here or maybe even talk about your passions, hobbies, and whatever you
+						want!
 					</p>
 				</Section>
 
